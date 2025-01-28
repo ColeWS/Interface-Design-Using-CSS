@@ -1,0 +1,131 @@
+header {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    align-items: center;
+    background-color: gray;
+    font-size: 20px;
+}
+.song-info {
+    text-align: center;
+    position: relative;
+    top: 35px;
+    line-height: 20px;
+}
+body {
+    background-image: url(../images/background-image.jpg);
+    background-size: cover;
+}
+.lyrics {
+    font-family: "Goudy Bookletter 1911", serif;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 50px;
+}
+#lyrics1 {
+    padding-top: 125px;
+    background-color: gray;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 100px;
+}
+#lyrics1 strong {
+    font-family: "Cedarville Cursive", serif;
+    font-size: 60px;
+    color: red;
+}
+#lyrics2 {
+    background-color: gray;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 100px;
+}
+#lyrics2 strong {
+    font-family: "Cedarville Cursive", serif;
+    font-size: 50px;
+    color: red;
+}
+#lyrics3 {
+    background-color: gray;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 100px;
+}
+#lyrics3 strong {
+    font-family: "Cedarville Cursive", serif;
+    font-size: 50px;
+    color: red;
+}
+#lyrics4 {
+    background-color: gray;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 100px;
+}
+#lyrics4 strong {
+    font-family: "Cedarville Cursive", serif;
+    font-size: 50px;
+    color: red;
+}
+#lyrics5 {
+    background-color: gray;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 100px;
+}
+#lyrics5 strong {
+    font-family: "Cedarville Cursive", serif;
+    font-size: 50px;
+    color: red;
+}
+#lyrics6 {
+    background-color: gray;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 100px;
+}
+#lyrics6 strong {
+    font-family: "Cedarville Cursive", serif;
+    font-size: 50px;
+    color: red;
+}
+#lyrics7 {
+    background-color: gray;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 100px;
+}
+#lyrics7 strong {
+    font-family: "Cedarville Cursive", serif;
+    font-size: 50px;
+    color: red;
+}
+#lyrics8 {
+    background-color: gray;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 100px;
+}
+#lyrics8 strong {
+    font-family: "Cedarville Cursive", serif;
+    font-size: 50px;
+    color: red;
+}
+#lyrics9 {
+    background-color: gray;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 100px;
+}
+#lyrics9 strong {
+    font-family: "Cedarville Cursive", serif;
+    font-size: 50px;
+    color: red;
+}
+img {
+    position: fixed;
+}
