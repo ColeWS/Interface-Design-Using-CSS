@@ -1,3 +1,4 @@
+/* header */
 header {
     position: fixed;
     width: 100%;
@@ -13,10 +14,12 @@ header {
     top: 35px;
     line-height: 20px;
 }
+/* background image */
 body {
     background-image: url(../images/background-image.jpg);
     background-size: cover;
 }
+/* overall lyrics styling */
 .lyrics {
     font-family: "Goudy Bookletter 1911", serif;
     font-size: 30px;
@@ -26,6 +29,7 @@ body {
     flex-direction: column;
     line-height: 50px;
 }
+/* styling for specific lyrics sections */
 #lyrics1 {
     padding-top: 125px;
     background-color: gray;
@@ -126,6 +130,7 @@ body {
     font-size: 50px;
     color: red;
 }
+/* styling for the logo */
 img {
     position: fixed;
 }
