@@ -1,0 +1,187 @@
+/* overall page styling */
+html {
+    font-family: "Poppins", sans-serif;
+    background-image: linear-gradient(#E34234, gold);
+}
+
+/* header styling */
+.twix-title {
+    background-image: url("../img/twix-in-wrapper.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* keyframes to animate the fade in effect for the twix title */
+@keyframes h1Fade {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h1 {
+    font-family: "Bungee", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10em;
+    height: 100vh;
+    color: red;
+    text-shadow: 1px 1px 10px white;
+    animation: h1Fade 1s linear;
+}
+
+/* twix about section styling */
+.twix-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top: 20px solid black;
+}
+
+.twix-about h2 {
+    font-size: 2.4em;
+    height: 20vh;
+    font-weight: 700;
+    padding-top: 5%
+}
+
+.twix-about img {
+    max-width: 25%;
+    height: 100%;
+    padding-bottom: 5%;
+}
+
+p {
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1.4em;
+}
+
+/* twix history section styling */
+.twix-history {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.twix-history h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.4em;
+    height: 20vh;
+    font-weight: 700;
+}
+
+.twix-history img {
+    max-width: 25%;
+    height: 100%;
+    padding-bottom: 5%;
+}
+
+/* twix products section styling */
+.twix-products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.twix-products h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.4em;
+    height: 20vh;
+    font-weight: 700;
+}
+
+.twix-products img {
+    max-width: 25%;
+    height: 100%;
+    padding-bottom: 5%;
+}
+
+.twix-products h3 {
+    font-weight: 700;
+}
+
+ul {
+    font-size: 1.2em;
+    list-style-type: disc;
+    line-height: 30px;
+    padding-left: 30vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.discontinued-list {
+    padding-right: 40vh;
+}
+
+/* footer styling */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    background-color: #E34234;
+    border-top: 20px solid black;
+}
+.company-info h2 {
+    height: 10vh;
+    padding-top: 5vh;
+    font-size: 2.4em;
+    font-weight: 700;
+}
+.form h2 {
+    text-align: center;
+    height: 10vh;
+    padding-top: 5vh;
+    font-size: 2.4em;
+    font-weight: 700;
+}
+/* contact form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img {
+    margin-right: auto;
+    max-width: 10%;
+    height: 100%;
+}
+button {
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 5px;
+    width: 25%;
+}
+
+button, input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+button:hover {
+    background-color: gold;
+    transition: all .25s linear;
+}
+
+input:focus {
+    border: 3px solid gold;
+    outline: none;
+}
